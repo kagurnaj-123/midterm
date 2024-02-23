@@ -17,7 +17,17 @@ import java.util.Scanner;
  * @author sivagamasrinivasan
  jn 22nd
  */
-public class Days {
+
+ public enum Day {
+    SUNDAY,
+    MONDAY,
+    TUESDAY,
+    WEDNESDAY,
+    THURSDAY,
+    FRIDAY,
+    SATURDAY
+}
+
 
     /**
      * @param args the command line arguments
